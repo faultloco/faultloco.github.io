@@ -298,18 +298,9 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    
-    <div class="columns is-centered"></div>
-      <div class="content">
-        <h2 class="title is-3">Climbing stairs</h2>
-        <p>
-          Fault-loco enables the robot to climb the stairs even with an unactuated rear leg.
-        </p>
-      </div>
-    </div>
 
     <div class="columns is-centered">
-      <!-- Visual Effects. -->
+      <!-- Normal case. -->
       <div class="column">
         <div class="content">
           <h2 class="title is-3">Visual Effects</h2>
@@ -327,7 +318,7 @@
 
       <!-- Matting. -->
       <div class="column">
-        <h2 class="title is-3">Matting</h2>
+        <h2 class="title is-3">Fault 1</h2>
         <div class="columns is-centered">
           <div class="column content">
             <p>
@@ -336,6 +327,23 @@
             </p>
             <video id="matting-video" controls playsinline height="100%">
               <source src="./static/videos/sequence_02.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="column">
+        <h2 class="title is-3">Fault 2</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+              As a byproduct of our method, we can also solve the matting problem by ignoring
+              samples that fall outside of a bounding box during rendering.
+            </p>
+            <video id="matting-video" controls playsinline height="100%">
+              <source src="./static/videos/sequence_04.mp4"
                       type="video/mp4">
             </video>
           </div>
