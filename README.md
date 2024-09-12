@@ -7,9 +7,9 @@ If you find Nerfies useful for your work please cite:
 @inproceeding{lee2025dreamflex,
   author    = {Lee, Seunghyun and Nahrendra, I Made Aswin and Lee, Dongkyu and Yu, Byeongho and Oh, Minho and Myung, Hyun},
   title     = {{DreamFLEX}: Learning Fault-Aware Quadrupedal Locomotion Controller for Anomaly Situation in Rough Terrains},
-  booktitle   = {Proc. IEEE Int. Conf. Robot. Automat.},
+  booktitle = {Proc. IEEE Int. Conf. Robot. Automat.},
   year      = {2025},
-  note={{Submitted}} 
+  note      = {{Submitted}} 
 }
 ```
 
